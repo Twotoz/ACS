@@ -1,0 +1,3 @@
+{
+  "note": "Default config is currently expressed in src/runtime/defaultConfig.ts for type safety."
+}

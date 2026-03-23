@@ -1,0 +1,17 @@
+export const defaultConfig = {
+  width: 10,
+  height: 10,
+  seed: 7,
+  coupling: 0.22,
+  scarCouplingBoost: 0.12,
+  decay: 0.45,
+  dampingBase: 0.11,
+  homeostaticRange: { low: 0.05, high: 0.9 },
+  antiFreezeNoise: 0.01,
+  antiRuminationThreshold: 1.05,
+  antiRuminationPenalty: 0.08,
+  maxActivationDelta: 0.3,
+  scarLearningRate: 0.08,
+  scarDecayRate: 0.01,
+  repeatedCoherenceThreshold: 0.72,
+};
